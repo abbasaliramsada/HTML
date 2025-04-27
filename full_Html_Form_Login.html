@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1 align="center">Registration Form</h1>
+    <fieldset>
+        <legend>Student Details</legend>
+        <table align="center" cellpadding="5">
+        <form action="./home.html">
+            <tr>
+                <td>
+                    <label for="firstname">Fisrt Name</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="firstname" id="firstname" required placeholder="Enter Fisrt Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lastname">Last Name</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="lastname" id="lastname" required placeholder="Enter Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="password" name="password" id="password" required placeholder="Enter Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email-ID</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="email" name="email" id="email" required placeholder="Enter Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="number">Mo. Number</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="tel" name="number" id="number" required placeholder="Enter Mobile Number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="website">Website</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="url" name="website" id="website" required placeholder="Enter Your Linkdin URL">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Date</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="date" name="date" id="date" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="time">Time</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="time" name="time" id="time" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date&time">Date-Time</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="datetime-local" name="date&time" id="date&time" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="color">Pick a Color</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="color" name="color" id="color" required>
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <label for="file">Upload CV</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="file" name="file" id="file" required accept="pdf">
+            </td>
+        </tr>
+            <tr>
+                <td>Gender</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="Gender" id="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" name="Gender" id="Female">
+                    <label for="Female">Female</label>
+                    <input type="radio" name="Gender" id="Other">
+                    <label for="Other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Hobbies</td>
+                <td rowspan="2">:</td>
+                <td>
+                    <input type="checkbox" name="Hobbies" id="Reading">
+                    <label for="Reading">Reading</label>
+                    <input type="checkbox" name="Hobbies" id="Travelling" checked disabled>
+                    <label for="Travelling">Travelling</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="Hobbies" id="Swimming" disabled>
+                    <label for="Swimming">Swimming</label>
+                    <input type="checkbox" name="Hobbies" id="Sports" checked >
+                    <label for="Sports">Sports</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">Your City</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="">--Select City--</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Gandhinagar">Gandhinagar</option>
+                        <option value="Mehsana">Mehsana</option>
+                        <option value="Vadnagar">Vadnagar</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Massage">Massage</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <textarea name="Massage" id="Massage" rows="5" cols="20" placeholder="Enter Feedback"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Range">Select Range</label></td>
+                <td>:</td>
+                <td>
+                    <input type="range" name="Range" id="Range">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="search">Search</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="search" name="search" id="search" placeholder="Search anything">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Read More">
+                </td>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit"> &nbsp; &nbsp; &nbsp;&nbsp;
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+            
+           
+        </form>
+    </table>
+    </fieldset>
+    
+</body>
+</html>
